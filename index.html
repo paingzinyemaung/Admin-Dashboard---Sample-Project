@@ -12,6 +12,7 @@
     <div class="container-fluid ">
         <div class="row g-0">
             <nav class="col-2 bg-light pe-3">
+                
                 <!--Logo & Title-->
                 <h1 class="h4 py-3 text-center text-primary">
                     <i class="fas fa-ghost"></i>
@@ -19,6 +20,8 @@
                         GHOST ADMIN
                     </span>        
                 </h1>
+                <!--/Logo & Title-->
+
                 <!--Menu Item-->
                 <div class="list-group text-center text-lg-start">
                     <span class="list-group-item disabled d-none d-lg-block">
@@ -39,7 +42,7 @@
                     </a>
                     <a href="#" class="list-group-item list-group-item-action">
                         <i class="fas fa-flag"></i>
-                        <span class="d-none d-lg-inline ">Reports</span>
+                        <span class="d-none d-lg-inline">Reports</span>
                     </a>
                 </div>
 
@@ -60,12 +63,40 @@
                         <span class="d-none d-lg-inline">Add Events</span>
                     </a>
                 </div>
+                <!--/Menu Item-->
             </nav>
-            <main class="col-10 bg-secondary">
 
+            <main class="col-10 bg-secondary">
+                <!--Horizontal Navbar-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                    <div class="flex-fill"></div>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                <i class="fas fa-user-circle"></i>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a href="#" class="dropdown-item">User Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-cog"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--/Horizontal Navbar-->
             </main>
         </div>
     </div>
+    <!--/Sidebar Navigation-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
